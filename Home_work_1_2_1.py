@@ -10,3 +10,13 @@ sum = 0
 for j in range(len(list1)):
     sum = list1[j]+sum
 print('Сумма цифр в числе равна: ', sum)
+
+
+# Решение от преподователя
+
+# number = input('Num:')
+# sum = 0
+# for i in number:
+#     if i != '.':
+#         sum += int(i)
+# print(f'Sum of nums: {sum}')

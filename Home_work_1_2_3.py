@@ -11,3 +11,10 @@ for i in range(1, n+1):
     sum = (1+1/i)**i
     numbers.append(sum)
 print(numbers)
+
+#  Решение от преподователя
+
+# n = int(input('Num: '))
+# multiplications = [(1+1/i)**i for i in range(1, n+1)]
+# print(f"List of multiplications: {multiplications}")
+# print(f"Sum of list: {sum(multiplications)}")
